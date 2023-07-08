@@ -1,4 +1,5 @@
 import './App.css'
+import Creations from './comps/Creations'
 import Features from './comps/Features'
 import Hero from './comps/Hero'
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Hero />
       <Features />
+      <Creations />
     </>
   )
 }
