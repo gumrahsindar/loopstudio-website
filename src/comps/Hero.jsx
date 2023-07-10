@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
 const Hero = () => {
   const [toggleHamburger, settoggleHamburger] = useState(false)
+  const [toggleMenu, settoggleMenu] = useState(false)
   return (
     <section id='hero'>
       {/* hero container */}
@@ -32,7 +34,7 @@ const Hero = () => {
               <div className='mx-2 group-hover:border-b group-hover:border-blue-50'></div>
             </div>
           </div>
-          {/* Hamburger button */}
+          {/* hamburger button */}
           <div className='md:hidden'>
             <button
               id='menu-btn'
@@ -40,7 +42,10 @@ const Hero = () => {
               className={`z-40 block hamburger md:hidden focus:outline-none ${
                 toggleHamburger ? 'open' : ''
               }`}
-              onClick={() => settoggleHamburger(!toggleHamburger)}
+              onClick={() => {
+                settoggleHamburger(!toggleHamburger)
+                settoggleMenu(!toggleMenu)
+              }}
             >
               <span className='hamburger-top'></span>
               <span className='hamburger-middle'></span>
@@ -48,7 +53,34 @@ const Hero = () => {
             </button>
           </div>
         </nav>
-        {/* @todo mobile menu */}
+        {/* mobile menu */}
+        <TransitionGroup>
+          {toggleMenu && (
+            <CSSTransition classNames='menu-animation' timeout={300}>
+              <div
+                className={`menu absolute top-0 bottom-0 left-0 flex flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black opacity-90 ${
+                  toggleMenu ? 'flex' : 'hidden'
+                }`}
+              >
+                <a href='#' className='hover:text-pink-500'>
+                  About
+                </a>
+                <a href='#' className='hover:text-pink-500'>
+                  Careers
+                </a>
+                <a href='#' className='hover:text-pink-500'>
+                  Events
+                </a>
+                <a href='#' className='hover:text-pink-500'>
+                  Products
+                </a>
+                <a href='#' className='hover:text-pink-500'>
+                  Support
+                </a>
+              </div>
+            </CSSTransition>
+          )}
+        </TransitionGroup>
 
         <div className='max-w-lg my-32 p-4 font-sans text-4xl text-white uppercase border-2 md:p-10 md:m32 md:mx-0 md:text-6xl'>
           Impressive Experinces That Deliver
