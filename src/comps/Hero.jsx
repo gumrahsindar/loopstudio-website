@@ -1,4 +1,7 @@
+import { useState } from 'react'
+
 const Hero = () => {
+  const [toggleHamburger, settoggleHamburger] = useState(false)
   return (
     <section id='hero'>
       {/* hero container */}
@@ -29,7 +32,21 @@ const Hero = () => {
               <div className='mx-2 group-hover:border-b group-hover:border-blue-50'></div>
             </div>
           </div>
-          {/* @todo hamburger menu */}
+          {/* Hamburger button */}
+          <div className='md:hidden'>
+            <button
+              id='menu-btn'
+              type='button'
+              className={`z-40 block hamburger md:hidden focus:outline-none ${
+                toggleHamburger ? 'open' : ''
+              }`}
+              onClick={() => settoggleHamburger(!toggleHamburger)}
+            >
+              <span className='hamburger-top'></span>
+              <span className='hamburger-middle'></span>
+              <span className='hamburger-bottom'></span>
+            </button>
+          </div>
         </nav>
         {/* @todo mobile menu */}
 
