@@ -10,7 +10,7 @@ const Hero = () => {
       <div className='container max-w-6xl mx-auto px-6 py-12'>
         {/* ,menu/Logo Container */}
         <nav className='flex items-center justify-between font-bold text-white'>
-          <img src='images/logo.svg' alt='' />
+          <img src='/images/logo.svg' alt='' />
           {/* Menu */}
           <div className='hidden h-10 font-alata md:flex md:space-x-8'>
             <div className='group'>
