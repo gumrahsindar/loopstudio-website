@@ -16,7 +16,7 @@
 
 ### Screenshot
 
-![](./preview-desktop.png)
+![](./preview-desktop.jpg)
 
 ---
 
