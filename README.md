@@ -20,8 +20,6 @@
 
 ---
 
-![](./preview-mobile.png)
-
 ### Links
 
 - Solution URL: [Github](https://github.com/gumrahsindar/loopstudio-website)
