@@ -34,7 +34,7 @@ const Creations = () => {
             <div className='item-gradient'></div>
 
             {/* Item Text */}
-            <h5>Deep Earth</h5>
+            <h3>Deep Earth</h3>
           </div>
           {/* Item 2 */}
           <div className='group item'>
@@ -56,7 +56,7 @@ const Creations = () => {
             <div className='item-gradient'></div>
 
             {/* Item Text */}
-            <h5>Night Arcade</h5>
+            <h3>Night Arcade</h3>
           </div>
           {/* Item 3 */}
           <div className='group item'>
@@ -78,7 +78,7 @@ const Creations = () => {
             <div className='item-gradient'></div>
 
             {/* Item Text */}
-            <h5>Soccer Team VR</h5>
+            <h3>Soccer Team VR</h3>
           </div>
           {/* Item 4 */}
           <div className='group item'>
@@ -100,7 +100,7 @@ const Creations = () => {
             <div className='item-gradient'></div>
 
             {/* Item Text */}
-            <h5>The Grid</h5>
+            <h3>The Grid</h3>
           </div>
         </div>
 
@@ -126,7 +126,7 @@ const Creations = () => {
             <div className='item-gradient'></div>
 
             {/* Item Text */}
-            <h5>From Up Above VR</h5>
+            <h3>From Up Above VR</h3>
           </div>
           {/* Item 2 */}
           <div className='group item'>
@@ -148,7 +148,7 @@ const Creations = () => {
             <div className='item-gradient'></div>
 
             {/* Item Text */}
-            <h5>Pocket Borealis</h5>
+            <h3>Pocket Borealis</h3>
           </div>
           {/* Item 3 */}
           <div className='group item'>
@@ -170,7 +170,7 @@ const Creations = () => {
             <div className='item-gradient'></div>
 
             {/* Item Text */}
-            <h5>Curiosity</h5>
+            <h3>Curiosity</h3>
           </div>
           {/* Item 4 */}
           <div className='group item'>
@@ -192,7 +192,7 @@ const Creations = () => {
             <div className='item-gradient'></div>
 
             {/* Item Text */}
-            <h5>Make It Fisheye</h5>
+            <h3>Make It Fisheye</h3>
           </div>
         </div>
 
