@@ -1,51 +1,31 @@
-## Table of contents
+# Loopstudios Website
 
----
+## 🚀 Features
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+- Optimal layout depending on their device's screen size.
+- See hover states for interactive elements.
 
-## Overview
+## 🛠️ Technologies Used
 
----
+- **React JS**: JS library for web and native user interfaces
+- **Tailwind**: Utility first CSS framework.
 
+## 🌐 Live Demo
 
-### Screenshot
+- <a href="https://loopstudio-website-navy.vercel.app" target="_blank">Visit Loopstudios</a>
 
-![](./preview-desktop.jpg)
+## 🌟 Lighthouse Score
 
----
+<div align="center">
+  <img src="./lighthouse-loopstudio.png" alt="Lighthouse Score" width="450">
+</div>
 
-### Links
+## 🌄 Preview
 
-- Solution URL: [Github](https://github.com/gumrahsindar/loopstudio-website)
-- Live Site URL: [Vercel](https://loopstudio-website-navy.vercel.app/)
+<div align="center">
+  <img src="./preview-desktop.jpg" alt="Preview" width="800">
+</div>
 
-## My process
-
----
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Tailwind CSS](https://tailwindcss.com/) - For styles
-- [Vite](https://vitejs.dev/) - Build tool
-
-  
 ## Author
 
----
-
 - LinkedIn - [Gümrah Sindar](https://www.linkedin.com/in/gumrahsindar/)
-- Frontend Mentor - [@gumrahsindar](https://www.frontendmentor.io/profile/gumrahsindar)
-- Twitter - [@gmrhsndr](https://twitter.com/gmrhsndr)
-````
