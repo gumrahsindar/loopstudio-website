@@ -8,7 +8,11 @@ const Footer = () => {
           <div className='flex flex-col items-center space-y-8 md:items-start md:space-y-4'>
             {/* Logo */}
             <div className='h-8'>
-              <img src='images/logo.svg' alt='' className='w44 md:ml-3' />
+              <img
+                src='images/logo.svg'
+                alt='Loopstudios logo'
+                className='w44 md:ml-3'
+              />
             </div>
             {/* Menu */}
             <div className='flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3'>
